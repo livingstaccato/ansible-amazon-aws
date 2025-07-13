@@ -1,0 +1,27 @@
+Script is running...
+[*] Using collections base path: /home/jules/.ansible/collections/ansible_collections
+[*] Checking for collection at: /home/jules/.ansible/collections/ansible_collections/community/general
+[*] Searching for modules in: /home/jules/.ansible/collections/ansible_collections/community/general/plugins/modules
+[*] [1/20] Parsing module: aerospike_migrations.py
+[*] [2/20] Parsing module: airbrake_deployment.py
+[*] [3/20] Parsing module: aix_devices.py
+[*] [4/20] Parsing module: aix_filesystem.py
+[*] [5/20] Parsing module: aix_inittab.py
+[*] [6/20] Parsing module: aix_lvg.py
+[*] [7/20] Parsing module: aix_lvol.py
+[*] [8/20] Parsing module: alerta_customer.py
+[*] [9/20] Parsing module: ali_instance.py
+[*] [10/20] Parsing module: ali_instance_info.py
+[*] [11/20] Parsing module: alternatives.py
+[*] [12/20] Parsing module: android_sdk.py
+[*] [13/20] Parsing module: ansible_galaxy_install.py
+[*] [14/20] Parsing module: apache2_mod_proxy.py
+[*] [15/20] Parsing module: apache2_module.py
+[*] [16/20] Parsing module: apk.py
+[*] [17/20] Parsing module: apt_repo.py
+[*] [18/20] Parsing module: apt_rpm.py
+[*] [19/20] Parsing module: archive.py
+[*] [20/20] Parsing module: atomic_container.py
+[*] Reached limit of 20 modules. Stopping.
+[*] Processed 20 python files.
+[*] Wrote output to output.json

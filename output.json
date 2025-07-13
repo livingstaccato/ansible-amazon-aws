@@ -1,0 +1,48 @@
+{
+  "my_resource": {
+    "crud_operations": {
+      "C": true,
+      "R": false,
+      "U": true,
+      "D": true
+    },
+    "arguments": {
+      "name": {
+        "description": [
+          "Name of the resource."
+        ],
+        "required": true,
+        "type": "str"
+      },
+      "state": {
+        "description": [
+          "The state of the resource."
+        ],
+        "required": false,
+        "type": "str",
+        "choices": [
+          "present",
+          "absent"
+        ],
+        "default": "present"
+      }
+    }
+  },
+  "my_resource_info": {
+    "crud_operations": {
+      "C": false,
+      "R": true,
+      "U": false,
+      "D": false
+    },
+    "arguments": {
+      "name": {
+        "description": [
+          "Name of the resource to get info about."
+        ],
+        "required": false,
+        "type": "str"
+      }
+    }
+  }
+}
